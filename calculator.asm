@@ -26,8 +26,10 @@ public start
 	mode_write db "w",0
 	fp dd 0
 	fout dd 0
-	path db "C:\Calculator_files\filename.txt",0
-	path1 db "C:\Calculator_files\result.txt",0
+	;path db "C:\Calculator_files\filename.txt",0
+	;path1 db "C:\Calculator_files\result.txt",0
+	path db "filename.txt",0
+	path1 db "result.txt",0
 	max_length dd 255
 	okNumber db 0
 	okMulDiv db 0
