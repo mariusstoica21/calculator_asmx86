@@ -46,6 +46,7 @@ type
     PressMul: TAction;
     PressDiv: TAction;
     PressEqual: TAction;
+    PressClear: TAction;
     procedure FormShow(Sender: TObject);
     procedure Press1Execute(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -65,6 +66,7 @@ type
     procedure PressMulExecute(Sender: TObject);
     procedure PressDivExecute(Sender: TObject);
     procedure PressEqualExecute(Sender: TObject);
+    procedure PressClearExecute(Sender: TObject);
   private
     { Private declarations }
     Btn1 : TImageButton;
@@ -94,6 +96,9 @@ var
 implementation
 
 {$R *.dfm}
+
+//By pressing the buttons 0,1,2,3,4,5,6,7,8,9,+,-,*,/,= the string responsible
+//for the operation will add the coresponding character
 
 procedure TFPrincP.Press0Execute(Sender: TObject);
 begin
@@ -196,6 +201,15 @@ begin
   end;
 end;
 
+//By pressing the 'C' button (Clear), the operation string will be initialized
+//and the RichEdit component will be cleared
+
+procedure TFPrincP.PressClearExecute(Sender: TObject);
+begin
+  RichEdit1.Clear;
+  str := '';
+end;
+
 procedure TFPrincP.PressDivExecute(Sender: TObject);
 begin
   str := str + '/';
@@ -211,30 +225,35 @@ var myText: TStringlist;
     s: string;
     allText: string;
 begin
+
+  //The equal sign is added to the string. It is important for the assembly code
+  //as it marks the ending of the operation
+
   str := str + '=';
   if checkLen() then
   begin
     setRichEdit(str);
   end;
 
+  //Save the operation string to filename.txt
   myText:= TStringlist.create;
   try
     myText.Add(str);
-    //myText.SaveToFile('C:\Calculator_files\filename.txt');
     myText.SaveToFile('filename.txt');
   finally
     myText.Free
   end;
 
-  //ShellExecute(Handle, 'open','C:\Calculator_files\calculator.exe',
-  //nil, nil, SW_SHOWNORMAL);
+  //Execute the assembly executable in order to read the string operation, parse
+  //it, and execute it.
   ShellExecute(Handle, 'open','calculator.exe',
   nil, nil, SW_SHOWNORMAL);
 
+  //Sleep for one second in order to wait for the opeation to be executed
   sleep(1000);
 
+  //The result of the operation is saved in result.txt file
   allText := '';
-  //AssignFile(Txt, 'C:\Calculator_files\result.txt');
   AssignFile(Txt, 'result.txt');
   Reset(txt);
   while not Eof(txt) do
@@ -244,7 +263,11 @@ begin
   end;
   CloseFile(txt);
 
+  //The RichEdit component displays the result
   setRichEdit(allText);
+
+  str := '';
+
 
 end;
 
@@ -266,6 +289,8 @@ begin
   end;
 end;
 
+
+//This procedure adds style for the string operation
 procedure TFPrincP.setRichEdit(s:string);
 begin
   RichEdit1.Clear;
@@ -275,17 +300,20 @@ begin
 
 end;
 
+//This function will display an error if the operation string is longer than
+//25 characters
 function TFPrincP.checkLen: Boolean;
 begin
   if str.Length > 25 then
   begin
-    ShowMessage('Operation is to long! Only 25 characters allowed!');
+    ShowMessage('Operation is too long! Only 25 characters allowed!');
     result := false;
   end else begin
     result := true;
   end;
 end;
 
+//On Form Create, the string operation is initialized
 procedure TFPrincP.FormCreate(Sender: TObject);
 begin
   str := '';
@@ -294,12 +322,14 @@ end;
 procedure TFPrincP.FormShow(Sender: TObject);
 begin
 
+  //Style elements for the RichEdit component
   RichEdit1.Clear;
   RichEdit1.styleElements:=richedit1.styleElements-[seFont];
   RichEdit1.SelAttributes.Color := $00E8833F;
   RichEdit1.SelAttributes.Style := [fsBold];
 
 
+  //Style elements for the buttons
   Btn1 := TImageButton.Create(self);
   Btn1.Images := ImageList1;
   Btn1.Index := 0;
@@ -430,7 +460,7 @@ begin
   BtnNone.Parent := Panel1;
   BtnNone.Top := 515;
   BtnNone.Left := 20;
-  //Btn1.Action := SignIn;
+  BtnNone.Action := PressClear;
 
   BtnEqual := TImageButton.Create(self);
   BtnEqual.Images := ImageList1;
