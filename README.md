@@ -65,7 +65,6 @@ folder.
 </p>
 
 
-
 ## Authors
 
 - [@mariusstoica21](https://github.com/mariusstoica21)
