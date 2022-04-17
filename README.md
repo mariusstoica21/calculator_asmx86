@@ -1,6 +1,6 @@
 
 
-<p align="center">
+<p align="left">
   <img 
     src="https://i.postimg.cc/qMJmD7VS/Component-6-1.png"
   >
@@ -13,11 +13,11 @@
 A desktop application of a decimal computer that allows the user to perform arithmetical 
 operations like addition, subtraction, multiplication and division.
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/SNctvm48/Component-14-1.jpg"
   >
-</p>
+</p> -->
 
 
 ## Installation
