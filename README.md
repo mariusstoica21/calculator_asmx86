@@ -1,5 +1,5 @@
 
-![Logo](https://i.postimg.cc/4yTNBskW/Component-5-1.png)
+![Logo](https://i.postimg.cc/qMJmD7VS/Component-6-1.png)
 
 
 # Pocket Calculator - Assembly x86 and Delphi
