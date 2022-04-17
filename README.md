@@ -65,7 +65,7 @@ folder.
 
 <p align="center">
   <img 
-    src="https://i.postimg.cc/K8sRTSWk/Component-20-1.jpg"
+    src="https://i.postimg.cc/DfHh1ffK/Component-20-1.png"
   >
 </p>
 
