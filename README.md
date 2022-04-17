@@ -11,7 +11,11 @@ operations like addition, subtraction, multiplication and division.
 
 ![](https://i.postimg.cc/SNctvm48/Component-14-1.jpg)
 
-
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/SNctvm48/Component-14-1.jpg"
+  >
+</p>
 
 
 ## Installation
