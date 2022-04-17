@@ -12,7 +12,7 @@ operations like addition, subtraction, multiplication and division.
   <img 
     width="600"
     height="400"
-    src="https://i.postimg.cc/PxRZrnQM/Component-14-1.png"
+    src="https://postimg.cc/dkGD4XX7"
   >
 </p>
 
