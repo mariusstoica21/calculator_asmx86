@@ -39,7 +39,7 @@ folder.
 
 ❌ Documentation
 
-## Description
+## Project description
 
 ### Folder structure
 
@@ -59,8 +59,8 @@ folder.
 
 | 🔨 Tools/Frameworks |     📘 Language     |              📃 Usage               |     📚 Files     |                                ℹ Details                               |
 |:----------------:|:----------------:|:---------------------------------:|:--------------:|:--------------------------------------------------------------------:|
-|      Delphi      | Objective Pascal |         Desktop app & GUI         |   UPrincP.pas  |             The desktop application allows the user to...            |
-|  Notepad++ MASM  |   Assembly x86   | Read input and perform operations | calculator.asm | The operation is saved into the filename.txt file and calculator.exe |
+|      Delphi      | Objective Pascal |         Desktop app & GUI         |   UPrincP.pas  |UPrincP.pas is the main form of the desktop application. The user presses the buttons in order to insert the operation. After clicking the '=' button, the operation is saved in Others/filename.txt and Others/calculator.exe is run|
+|  Notepad++ MASM  |   Assembly x86   | Read input and perform operations | calculator.asm |Others/calculator.exe is the executable file of calculator.asm. The assembly app reads the string operation from Others/filename.txt, parses it and executes the arithmetical operations. The result is stored in result.txt, and read into the dektop app. |
 
 
 
