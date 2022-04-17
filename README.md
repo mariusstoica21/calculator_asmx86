@@ -56,11 +56,48 @@ folder.
 
 ### Technologies
 
-
+<!-- 
 | 🔨 Tools/Frameworks |     📘 Language     |              📃 Usage               |     📚 Files     |                                ℹ Details                               |
 |:----------------:|:----------------:|:---------------------------------:|:--------------:|:--------------------------------------------------------------------:|
 |      Delphi      | Objective Pascal |         Desktop app & GUI         |   UPrincP.pas  |UPrincP.pas is the main form of the desktop application. The user presses the buttons in order to insert the operation. After clicking the '=' button, the operation is saved in Others/filename.txt and Others/calculator.exe is run|
-|  Notepad++ MASM  |   Assembly x86   | Read input and perform operations | calculator.asm |Others/calculator.exe is the executable file of calculator.asm. The assembly app reads the string operation from Others/filename.txt, parses it and executes the arithmetical operations. The result is stored in result.txt, and read into the dektop app. |
+|  Notepad++ MASM  |   Assembly x86   | Read input and perform operations | calculator.asm |Others/calculator.exe is the executable file of calculator.asm. The assembly app reads the string operation from Others/filename.txt, parses it and executes the arithmetical operations. The result is stored in result.txt, and read into the dektop app. | -->
+
+
+<table>
+  <tr>
+    <th>🔨 Tools/Framework</th>
+    <th>📘 Language</th>
+    <th>📃 Usage </th>
+    <th>📚 Files</th>
+    <th> ℹ Details  </th>
+  </tr>
+  <tr>
+    <td>Delphi</td>
+    <td>Objective Pascal</td>
+    <td>Desktop app & GUI</td>
+    <td>UPrincP.pas</td>
+    <td>
+       <ul>
+        <li>UPrincP.pas is the main form of the desktop application.</li>
+        <li>The user presses the buttons in order to insert the operation.</li>
+        <li>After clicking the '=' button, the operation is saved in Others/filename.txt and Others/calculator.exe is run.</li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+    <td>Notepad++ MASM</td>
+    <td>Assembly x86</td>
+    <td>Read input and perform operations</td>
+    <td>calculator.asm</td>
+    <td>
+       <ul>
+        <li>Others/calculator.exe is the executable file of calculator.asm.</li>
+        <li>The assembly app reads the string operation from Others/filename.txt, parses it and executes the arithmetical operations.</li>
+        <li>The result is stored in result.txt, and read into the dektop app.</li>
+      </ul>
+   </td>
+  </tr>
+</table>
 
 
 
