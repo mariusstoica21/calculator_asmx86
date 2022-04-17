@@ -10,8 +10,8 @@ operations like addition, subtraction, multiplication and division.
 
 <p align="center">
   <img 
-    width="513"
-    height="359"
+    width="600"
+    height="400"
     src="https://i.postimg.cc/PxRZrnQM/Component-14-1.png"
   >
 </p>
