@@ -21,7 +21,7 @@ operations like addition, subtraction, multiplication and division.
 
 
 ## Installation
-
+- Go to https://github.com/mariusstoica21/calculator_asmx86.
 - Click the green **'Code'** button.
 - Click **'Download ZIP'**.
 - Run the app by double-clicking **'calculator.exe'** in the 'calculator_asmx86_master' 
