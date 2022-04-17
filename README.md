@@ -55,8 +55,19 @@ folder.
 
 
 
+## Usage
+
+- Run the app using the steps described above;
+- Insert the operation by clicking the buttons (example : 2+3);
+- Click the '=' button in order to calculate the result;
+- Click the 'C' button to clear the display and write a new operation string;
 
 
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/K8sRTSWk/Component-20-1.jpg"
+  >
+</p>
 
 
 
