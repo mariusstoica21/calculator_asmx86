@@ -9,7 +9,7 @@
 A desktop application of a decimal computer that allows the user to perform arithmetical 
 operations like addition, subtraction, multiplication and division.
 
-![](https://i.postimg.cc/PxRZrnQM/Component-14-1.png)
+![](https://i.postimg.cc/SNctvm48/Component-14-1.jpg)
 
 
 
