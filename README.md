@@ -2,7 +2,7 @@
 
 <p align="left">
   <img 
-    src="https://i.postimg.cc/qMJmD7VS/Component-6-1.png"
+    src="https://i.postimg.cc/x8N4vFL3/Component-21-1.png"
   >
 </p>
 
@@ -57,15 +57,10 @@ folder.
 
 ## Usage
 
-- Run the app using the steps described above;
-- Insert the operation by clicking the buttons (example : 2+3);
-- Click the '=' button in order to calculate the result;
-- Click the 'C' button to clear the display and write a new operation string;
-
 
 <p align="center">
   <img 
-    src="https://i.postimg.cc/DfHh1ffK/Component-20-1.png"
+    src="https://i.postimg.cc/Mp1XP6zh/Component-25-1.png"
   >
 </p>
 
