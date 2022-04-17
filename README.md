@@ -10,9 +10,7 @@ operations like addition, subtraction, multiplication and division.
 
 <p align="center">
   <img 
-    width="300"
-    height="300"
-    src="https://picsum.photos/300/300"
+    src="https://i.postimg.cc/PxRZrnQM/Component-14-1.png"
   >
 </p>
 
