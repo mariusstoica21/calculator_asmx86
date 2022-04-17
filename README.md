@@ -8,17 +8,8 @@ A desktop application of a decimal computer that allows the user to perform arit
 operations like addition, subtraction, multiplication and division.
 
 
-<p align="left">
-  <img 
-    width="600"
-    height="400"
-    src="https://i.postimg.cc/PxRZrnQM/Component-14-1.png"
-  >
-</p>
-
 ![](https://i.postimg.cc/PxRZrnQM/Component-14-1.png)
 
-!["https://i.postimg.cc/PxRZrnQM/Component-14-1.png"]
 
 
 ## Installation
