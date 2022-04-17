@@ -16,6 +16,8 @@ operations like addition, subtraction, multiplication and division.
   >
 </p>
 
+![](https://i.postimg.cc/PxRZrnQM/Component-14-1.png)
+
 !["https://i.postimg.cc/PxRZrnQM/Component-14-1.png"]
 
 
