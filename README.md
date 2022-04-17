@@ -8,6 +8,14 @@ A desktop application of a decimal computer that allows the user to perform arit
 operations like addition, subtraction, multiplication and division.
 
 
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="https://picsum.photos/300/300"
+  >
+</p>
+
 
 ## Installation
 
