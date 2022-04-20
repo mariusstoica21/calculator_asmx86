@@ -2,7 +2,7 @@
 
 <p align="left">
   <img 
-    src="https://i.postimg.cc/x8N4vFL3/Component-21-1.png"
+    src="https://i.postimg.cc/Qx9WXmBG/Component-29-1.png"
   >
 </p>
 
@@ -105,7 +105,7 @@ folder.
 
 <p align="center">
   <img 
-    src="https://i.postimg.cc/Mp1XP6zh/Component-25-1.png"
+    src="https://i.postimg.cc/hjvt24TW/Component-25-1.png"
   >
 </p>
 
