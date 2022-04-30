@@ -34,7 +34,7 @@ folder.
 
 ❌ Additional hardware needed
 
-✅ Video available
+✅ [Video available](https://www.youtube.com/watch?v=DV1VU8ZWkxc)
 
 ❌ Documentation
 
